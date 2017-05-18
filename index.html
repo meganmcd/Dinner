@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Welcome to Megan's Diner</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, maximum-scale=2" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="icon" type="image/ico" href="http://edison.seattlecentral.edu/~snewma02/web110/rwd/images/favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Condiment' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cherry+Cream+Soda' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="css/dinerstyles.css" />
+    <link rel="stylesheet" href="css/flexslider.css" />
+    <!--[if ltIE9]>
+	 <script src="http://css3-mediaqueries-js.googlecode.com/files/css3-mediaqueries.js"></script>
+	 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+ </head>
+
+<body>
+     <!-- START Header-->
+     <header>
+      <h1>Meg's Diner</h1>
+	     <!-- START Main Navigation -->
+	     <nav class="main">
+	       <ul>
+		     <li class="current"><a href="index.html">Welcome</a></li>
+		     <li><a href="menu.html">Menu</a></li>
+		     <li><a href="contactus.php">Contact Us</a></li>
+		     <li><a href="location.html">Our Location</a></li>
+		   </ul>
+         </nav>
+	     <!-- END Main Navigation -->
+     </header>
+    <!-- END Header -->
+     
+ <!-- START Content -->
+<section> 
+ <h1 class="pageid">Welcome!</h1>
+   <!-- START Left Column -->
+  <section class="col-left">
+  <div class="flexslider">
+    <ul class="slides">
+      <li><img alt="" src="images/kitchen_adventurer_donut.jpg" /></li>
+      <li><img alt="" src="images/kitchen_adventurer_caramel.jpg" /></li>
+      <li><img alt="" src="images/kitchen_adventurer_cheesecake_brownie.jpg" /></li>
+      <li><img alt="" src="images/kitchen_adventurer_lemon.jpg" /></li>
+    </ul>
+  </div>
+	<article>
+    <h3>About Us</h3>	
+       <p>A casual fine dining restaurant, offering eclectic American cuisine and warm hospitality in a rustic historically preserved building. A high, open beam ceiling, exposed brick and concrete floors display the original space, while an open kitchen, banquette seating and gentle lighting contribute to an intimate and contemporary feel. </p>
+       <p>Our food is sourced from top quality seasonal ingredients, featuring a high percentage of local and organic products. Our menu changes every six to eight weeks, offering a mix of new and signature dishes.</p>
+       <p>Meg's Dinner specializes in breakfast all-day, lunch, dinner, desserts and specially crafted teas and coffees. Meg's Dinner takes pride in its
+artisan offerings and also offering catering services.</p>
+</article>      
+<p class="btt"><a href="#top">Back to top</a></p>
+ <div class="promo">
+    <figure class="one"> <img src="images/breakfast.jpg" alt="" />
+      <figcaption>Breakfast</figcaption>
+    </figure>
+    <figure class="two"> <img src="images/lunch.jpg" alt="" />
+      <figcaption>Lunch</figcaption>
+    </figure>
+    <figure class="three"> <img src="images/dinner.jpg" alt="" />
+      <figcaption>Dinner</figcaption>
+    </figure>
+  </div>
+  </section>  
+<article>
+       <p>Crepes A La Anne (veg)  |   Our homemade crepes are stuffed with seasonal berries reduced in a port wine and topped with a maple drizzle, creme anglaise and a chocolate covered strawberry.</p>
+     	<br>
+       <p>Smoked Salmon Dish   |   Smoked Salmon served with onion, capers, sliced tomatoes and our homemade whipped smoked salmon spread and choice of either onion, wheat or pumpernickel bagel. </p>
+       <br>
+       <p>Homemade Organic Granola (veg)   |     Topped with mixed berries and served with non-fat organic yogurt on the side.</p>
+</article>  
+     <!-- END Left Column -->
+     
+     <!-- START Right Column -->
+     <aside>
+      <h3>News News News!</h3>
+      <h4>Guest Bartender Night!</h4>
+      <img src="images/GHTR-working.jpg" alt="diner food" />
+      <p>Every month, we host a local charity for Guest Bartender Night. It’s a fun event for charities to earn donations for their cause. Each charity brings their own flavor to the event… and gets to create a special cocktail for the evening.</p>
+      <p>Wednesday, February 26th, is Seattle Milk Fund from 6-9pm! Seattle Milk Fund erases a financial barrier that prevents struggling parents from pursuing a college education. Cheers to that!</p>
+     </aside>
+     <!-- END Right Column -->
+   </section>
+   	 <!--START Content-->
+
+     <!-- START Footer -->
+     <footer>
+     <small>&copy; 2014, All Rights Reserved ~ Megan's Diner</small>
+     </footer>
+     <!-- END Footer -->
+     <p class="btt"><a href="#top">Back to top</a></p>
+     
+     <!-- Start FlexSlider Code, place just before closing body tag --> 
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider.js"></script> 
+		
+		<!-- Initialize the slider on the div we named "flexslider" --> 
+		<script type="text/javascript">
+		    $(window).load(function(){
+		      $('.flexslider').flexslider({
+		        animation: "slide", // set animation to slide
+		        smoothHeight: true // auto-adjust to fit the height of images
+		      });
+		    });
+		</script> 
+		
+		<!-- Optional FlexSlider Additions --> 
+		<script type="text/javascript" src="js/jquery.easing.js"></script> 
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<!-- End FlexSlider Code -->    
+</body>
+</html>
